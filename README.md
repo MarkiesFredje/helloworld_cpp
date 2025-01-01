@@ -20,4 +20,5 @@ In this project I get the basics set up for c++
 1. Found some sort of [modern template](https://cliutils.gitlab.io/modern-cmake/chapters/basics/structure.html) for project structure
     1. Moving the code to `src` folder was easy, just updated `CMakeLists.txt` to get the build working again
 1. Probably should revisit this structure & setup once I get a better understanding of functions and header files.
+    1. I got a headache but managed to make seperate files and use a function from one into the other!
 1. Just noticed the buttons in vscode for build, debug and launch at bottom left, next to git branch
