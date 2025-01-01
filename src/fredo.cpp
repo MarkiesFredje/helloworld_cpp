@@ -11,3 +11,11 @@ void fredo(vector<string> msg)
    cout << endl;
 }
 
+void f_integers_simple()
+{
+   int variable = 8;
+   cout << variable << endl;
+   variable = 20;
+   cout << variable << endl;
+}
+
