@@ -8,7 +8,12 @@ int main() // the entry point, every application has this, int is the return typ
 
    cout << "**** VARIABLES ****" << endl;
    cout << "------- INT" << endl;
-   
    f_integers_simple();
+   cout << "------- UNSIGNED INT" << endl;
+   f_integers_unsigned();
+   cout << "------- CHAR" << endl;
+   f_char();
+   cout << "------- FLOAT / DOUBLE" << endl;
+   f_decimals();
 }
 

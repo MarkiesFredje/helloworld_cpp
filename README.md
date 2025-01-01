@@ -15,4 +15,5 @@ In this project I get the basics set up for c++
 
 ## Notes & the plan
 
-1. None
+1. Learned a bit about basic variable types
+1. Should pick up where I left off
