@@ -1,6 +1,7 @@
-#include <vector>
-#include <string>
+#include <format>
 #include <iostream>
+#include <string>
+#include <vector>
 
 using namespace std;
 
@@ -13,3 +14,5 @@ void f_integers_unsigned();
 void f_char();
 
 void f_decimals();
+
+void f_bools();

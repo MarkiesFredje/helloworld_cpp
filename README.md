@@ -7,6 +7,7 @@ In this project I get the basics set up for c++
 * Started off `cmake` branch
 * added `out` to `.gitignore`
 * Experimenting with some data types
+* added clang-format + extension `sudo apt install clang-format`
 
 ## Resources
 
@@ -16,4 +17,5 @@ In this project I get the basics set up for c++
 ## Notes & the plan
 
 1. Learned a bit about basic variable types
-1. Should pick up where I left off
+1. Changed version for CXX standard / compiler to use `std::format`
+1. Set up `clang-format` on save with settings
