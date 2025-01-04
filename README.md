@@ -4,47 +4,35 @@ In this project I get the basics set up for c++
 
 ## Setting up
 
-* Started off `cmake` branch
-* added `out` to `.gitignore`
-* Experimenting with some data types
-* added clang-format + extension `sudo apt install clang-format`
+* Started off `variables` branch
 
 ## Resources
 
-* Cherno's [variables](https://www.youtube.com/watch?v=zB9RI8_wExo&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=8&pp=iAQB)
+* Cherno's [conditions](https://www.youtube.com/watch?v=qEgCT87KOfc&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=12)
+* Cherno's [loops](https://www.youtube.com/watch?v=_1AwR-un4Hk&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=14)
 
 
 ## Notes & the plan
 
-1. Learned a bit about basic variable types
-1. Changed version for CXX standard / compiler to use `std::format`
-1. Set up `clang-format` on save with settings
-1. Learned about functions and header files
-
-## Oldschool stuff before #pragma once existed
+1. Else if is just an else with if inside
+1. Various loops
+1. Do while get evaluated at the end, rather then the beginning (like while)
 
 ```cpp
-#ifndef _FREDO_H
-#define _FREDO_H
+if(x==5){
+    a = 1;
+}
+else if(c==4){
+    b = 1;
+}
+```
 
-#include <format>
-#include <iostream>
-#include <string>
-#include <vector>
-
-using namespace std;
-
-void fredo(vector<string> msg);
-
-void f_integers_simple();
-
-void f_integers_unsigned();
-
-void f_char();
-
-void f_decimals();
-
-void f_bools();
-
-#endif
+```cpp
+if(x==5){
+    a = 1;
+}
+else 
+    if(c==4){
+        b = 1;
+    }
 ```
