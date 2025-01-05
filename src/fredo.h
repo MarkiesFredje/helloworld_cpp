@@ -10,4 +10,6 @@
 using namespace std;
 
 void fredo(vector<string> msg);
-int increment(int i);
+// int increment(int i);
+void increment(int* value);
+void increment(int& value);
