@@ -33,6 +33,15 @@ int main()  // the entry point, every application has this, int is the return ty
   cout << "=== FOR loop another alternative (5)" << endl;
   a = 0;
   for (; a < 5;) {
+    if (a == 4) {
+      cout << "a is 4, so I break!" << endl;
+      break;
+    }
+    if (a % 2 == 0 & a > 0) {
+      cout << "a is even, so I skip" << endl;
+      a++;
+      continue;
+    }
     fredo(msg3);
     a++;
   }
