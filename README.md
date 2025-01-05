@@ -11,6 +11,7 @@ In this project I get the basics set up for c++
 * Cherno's [conditions](https://www.youtube.com/watch?v=qEgCT87KOfc&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=12)
 * Cherno's [loops](https://www.youtube.com/watch?v=_1AwR-un4Hk&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=14)
 * Cherno's [control flow](https://www.youtube.com/watch?v=a3IZ8WaIFAA&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=15)
+* Cherno's [pointers](https://www.youtube.com/watch?v=DTxHyVn0ODg&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=16)
 
 
 ## Notes & the plan
@@ -37,3 +38,7 @@ else
         b = 1;
     }
 ```
+
+## Pointers
+
+A pointer is an `integer` that stores a memory addres.

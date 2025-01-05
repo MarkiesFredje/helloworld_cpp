@@ -58,4 +58,22 @@ int main()  // the entry point, every application has this, int is the return ty
   do {
     cout << "Do be rolling!" << endl;
   } while (a < 0);
+
+  // pointers
+  cout << "=== POINTERS" << endl;
+  int var = 8;
+  void* ptr = &var;  // type for pointers doenst matter, unless you write to it
+  // we would not be able to write 10 to ptr because of type void!
+  int* ptr_2 = &var;
+  *ptr_2 = 10;
+  cout << "var is now: " << var << endl;
+
+  // reserving memory
+  // one char is 1 byte
+  char* buffer = new char[8];  // allocates 8 bytes
+  memset(buffer, 0, 8);        // set 0 for 8 bytes long at my pointer
+  char** ptr_f = &buffer;      // pointer to pointer
+  cout << "dubble pointer ptr_f is " << ptr_f
+       << " the memory address of the pointer to buffer" << endl;
+  delete[] buffer;  // delete it again
 }
